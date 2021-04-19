@@ -6,7 +6,7 @@ Welcome to the uberall frontend challenge. Your task will be to implement a loca
 
 This is not a quiz! As much as we are interested in knowing what a great developer you are, we want to work with you in a team based manner, as we would on an average day in the uberall office. This means that you should feel free to ask any question at any time, if you need clarification on any aspect of this challenge or if you felt stuck with a specific question.
 
-We are providing a repository with a minimal react starter-kit (more on it later ⬇️) to _hopefully_ help you get to the heart of the matter and focus on the actual task rather than on the setup. Ideally, you would fork the repository and open a pull request for an easier review of your work.  
+We are providing a repository with a minimal react starter-kit (more on it [here](#boilerplate)) to _hopefully_ help you get to the heart of the matter and focus on the actual task rather than on the setup. ~~Ideally, you would fork the repository and open a pull request for an easier review of your work.~~ ([handover](#handover) steps)  
 If you do not wish to use the boilerplate, feel free not to, if you are more comfortable with a tool of your own.
 
 ## The Challenge
@@ -66,17 +66,28 @@ The page should poll the API with the entered data, then display it on the page.
 - - - A mapping of two-letter country code to its full name (optional)
 - - - Logo images for each third party directory (optional)
 
-### The boilerplate
+### Boilerplate
 
 The starter-kit provides a minimal setup for a React application. It comes with support for LESS, that we use in our application, but it is not a requirement. FYI, we do use redux, but it is probably not necessary here 😉
 
-You can get started by running `npm run webpack` in project root and head over to `http://localhost:3000` to see an empty page. It comes with hot reload, so you should be able to see your changes immediately, but if you stumble upon any problem, do not hesitate to ask!
+You can get started by installing the necessary dependencies with `npm install` and running `npm run webpack` in the project root and head over to `http://localhost:3000` to see an empty page. It comes with hot reload, so you should be able to see your changes immediately, but if you stumble upon any problem, do not hesitate to ask!
 
-The entrypoint is in `src/index.js`, you will find helpful mappings in `src/data` and a working example of a fetcher function in `src/api/index.js`.
+The entrypoint is in `src/index.js`, you will find helpful mappings in `src/data` and a working example of an API call in `src/api/index.js`.
 
 As stated previously, you don't **have** to use the boilerplate, and can use other tools and frameworks of your choice that you are more comfortable with, but keep in mind that the task was designed with minimal-to-no setup time.
 
 You can use any kind of framework or library. Just be prepared to tell us why :)
+
+### Handover
+
+We are unable to allow you, for the time being, to fork this repository, so we will ask you to please bear with us and follow these instructions:
+
+- After having cloned the repository, [create a new private personal repository on github](https://github.com/new) and copy the url
+- Inside the starter-kit directory, run the following command:
+- - `git remote set-url origin <your personal repository url>`
+
+You can now commit and push your changes to your personal repository.  
+[_inviting collaborators to a personal repository_](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository)
 
 ### Notes:
 
