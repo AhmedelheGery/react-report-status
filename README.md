@@ -23,11 +23,13 @@ In a web page, you should implement the following:
 - - ZIP code
 
 2. The results of the user’s status report. Provided are logos for each directory.
-3. The status check should work with multiple locations/countries. Here are some examples:
+3. The status check should work with different locations/countries. Here is the location that we use for our tests: 
 
 - - Einstein Cafe, Unter den linden 42, 10117
-- - Uberall (Uberall, Hussitenstr 32-33, 13355)
-- - - The API response for this one is different. Why?
+
+But you should feel free to play around and test other locations too. Pay attention to the API response/UI - why is it different?
+
+- Uberall (Uberall, Hussitenstr 32-33, 13355)
 - Try your favorite bar!
 - Try locations in other countries
 
