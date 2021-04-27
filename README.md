@@ -6,7 +6,7 @@ Welcome to the uberall frontend challenge. Your task will be to implement a loca
 
 This is not a quiz! As much as we are interested in knowing what a great developer you are, we want to work with you in a team based manner, as we would on an average day in the uberall office. This means that you should feel free to ask any question at any time, if you need clarification on any aspect of this challenge or if you felt stuck with a specific question.
 
-We are providing a repository with a minimal react starter-kit (more on it [here](#boilerplate)) to _hopefully_ help you get to the heart of the matter and focus on the actual task rather than on the setup. ~~Ideally, you would fork the repository and open a pull request for an easier review of your work.~~ ([handover](#handover) steps)  
+We are providing a repository with a minimal react starter-kit (more on it [here](#boilerplate)) to _hopefully_ help you get to the heart of the matter and focus on the actual task rather than on the setup. You have to fork the repository and open a pull request for an easier review of your work.~~ ([handover](#handover) steps)  
 If you do not wish to use the boilerplate, feel free not to, if you are more comfortable with a tool of your own.
 
 ## The Challenge
@@ -82,14 +82,11 @@ You can use any kind of framework or library. Just be prepared to tell us why :)
 
 ### Handover
 
-We are unable to allow you, for the time being, to fork this repository, so we will ask you to please bear with us and follow these instructions:
+Please bear with us and follow these instructions:
 
-- After having cloned the repository, [create a new private personal repository on github](https://github.com/new) and copy the url
-- Inside the starter-kit directory, run the following command:
-- - `git remote set-url origin <your personal repository url>`
-
-You can now commit and push your changes to your personal repository.  
-[_inviting collaborators to a personal repository_](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository)
+- Fork this repo with your user to obtain the working project for this challenge (https://github.com/YOUR_USERNAME/frontend-challenge)
+- You can now commit and push your changes to your personal repository.  
+- After having forked the repository and finish your solution, please make a PR with our repo as destination
 
 ### Notes:
 
