@@ -23,7 +23,7 @@ In a web page, you should implement the following:
 - - ZIP code
 
 2. The results of the user’s status report. Provided are logos for each directory.
-3. The status check should work with different locations/countries. Here is the location that we use for our tests: 
+3. The status check should work with different locations/countries. Here is the location that we use for our tests:
 
 - - Einstein Cafe, Unter den linden 42, 10117
 
@@ -85,13 +85,13 @@ You can use any kind of framework or library. Just be prepared to tell us why :)
 Please bear with us and follow these instructions:
 
 - Fork this repo with your user to obtain the working project for this challenge (https://github.com/YOUR_USERNAME/frontend-challenge)
-- You can now commit and push your changes to your personal repository.  
+- You can now commit and push your changes to your personal repository.
 - After having forked the repository and finish your solution, please make a PR with our repo as destination
 
 ### Notes:
 
 The design of the page is up to you. If you would like, you can mimic the current design, or feel free to experiment and try new ideas.
 
-Be prepared to discuss your code and design decisions with us at the end of the day.
+Be prepared to discuss your code and design decisions with us at the end of the session.
 
 If you have any questions, about anything (our API, the product, how/why/where etc.)
