@@ -19,6 +19,14 @@ module.exports = {
         test: /\.less$/i,
         loader: ["style-loader", "css-loader", "less-loader"],
       },
+      {
+        test: /\.s[ac]ss$/i,
+        loader: ["style-loader", "css-loader", "sass-loader"],
+      },
+      {
+        test: /\.svg$/,
+        use: ["@svgr/webpack"],
+      },
     ],
   },
   resolve: { extensions: ["*", ".js", ".jsx"] },
