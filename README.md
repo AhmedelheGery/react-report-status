@@ -86,7 +86,7 @@ Please follow these instructions:
 
 - Fork this repo to obtain the working project for this challenge (https://github.com/YOUR_USERNAME/frontend-challenge)
 - You can now commit and push your changes to your personal repository.
-- After having forked the repository and finish your solution, please make a PR with [this repo](https://github.com/uberall/frontend-challenge/) as destination
+- After having finished, send us a link to your fork.
 
 ### Notes:
 
