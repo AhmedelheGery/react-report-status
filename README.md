@@ -25,7 +25,7 @@ In a web page, you should implement the following:
 2. The results of the user’s status report. Provided are logos for each directory.
 3. The status check should work with different locations/countries. Here is the location that we use for our tests:
 
-- - Einstein Cafe, Unter den linden 42, 10117
+- - Gumbo Yaya, 3 Rue Charles Robin, 75010
 
 But you should feel free to play around and test other locations too. Pay attention to the API response/UI - why is it different?
 
@@ -82,11 +82,11 @@ You can use any kind of framework or library. Just be prepared to tell us why :)
 
 ### Handover
 
-Please bear with us and follow these instructions:
+Please follow these instructions:
 
-- Fork this repo with your user to obtain the working project for this challenge (https://github.com/YOUR_USERNAME/frontend-challenge)
+- Fork this repo to obtain the working project for this challenge (https://github.com/YOUR_USERNAME/frontend-challenge)
 - You can now commit and push your changes to your personal repository.
-- After having forked the repository and finish your solution, please make a PR with our repo as destination
+- After having forked the repository and finish your solution, please make a PR with [this repo](https://github.com/uberall/frontend-challenge/) as destination
 
 ### Notes:
 
@@ -94,4 +94,6 @@ The design of the page is up to you. If you would like, you can mimic the curren
 
 Be prepared to discuss your code and design decisions with us at the end of the session.
 
-If you have any questions, about anything (our API, the product, how/why/where etc.)
+If you have any questions, about anything (our API, the product, how/why/where etc.), feel feel free to ask! We look forward to seeing your work but also want you to feel comfortable communicating with the team.
+
+Realistically, to “finish” this task would take more than one day. So if you’re not sure to focus your energies, beyond the core of the task: do what you think will help you to show the best of your skills 
