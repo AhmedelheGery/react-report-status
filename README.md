@@ -17,15 +17,15 @@ In a web page, you should implement the following:
 
 1. An input form where the user can input the following:
 
-- - Country
-- - Business Name
-- - Street and Street Number
-- - ZIP code
+  - Country
+  - Business Name
+  - Street and Street Number
+  - ZIP code
 
 2. The results of the user’s status report. Provided are logos for each directory.
 3. The status check should work with different locations/countries. Here is the location that we use for our tests:
 
-- - Gumbo Yaya, 3 Rue Charles Robin, 75010
+  - Gumbo Yaya, 3 Rue Charles Robin, 75010
 
 But you should feel free to play around and test other locations too. Pay attention to the API response/UI - why is it different?
 
@@ -36,8 +36,8 @@ But you should feel free to play around and test other locations too. Pay attent
 Bonus things to think about:
 
 - The SearchData object contains a `shortUrl` property.
-- - What do you think this does?
-- - How could you use it, if you also controlled the page it links to?
+  - What do you think this does?
+  - How could you use it, if you also controlled the page it links to?
 - How could it be architected in a way that a customer could easily implement it into their own website/CMS?
 - Does the API make sense to you? Is it clear? Would you make any changes?
 
@@ -46,27 +46,27 @@ The page should poll the API with the entered data, then display it on the page.
 ### Using the API:
 
 - API Docs:
-- - Overview and examples:
-- - - https://uberall.com/en/developers/presenceChecks
-- - Endpoint documentation:
-- - - https://uberall.com/en/developers/apiDocumentation?language=en#_api_search-POST
-- - - https://uberall.com/en/developers/apiDocumentation#_api_search__id-GET
-- - Response Object documentation:
-- - - https://uberall.com/en/developers/resources#SearchData
-- - - https://uberall.com/en/developers/resources#BasicListing
+  - Overview and examples:
+    - https://uberall.com/en/developers/presenceChecks
+  - Endpoint documentation:
+    - https://uberall.com/en/developers/apiDocumentation?language=en#_api_search-POST
+    - https://uberall.com/en/developers/apiDocumentation#_api_search__id-GET
+  - Response Object documentation:
+    - https://uberall.com/en/developers/resources#SearchData
+    - https://uberall.com/en/developers/resources#BasicListing
 - API Usage
-- - Dev server
-- - - All API calls should be sent to
-- - - https://sandbox.uberall.com/api/$ENDPOINT, our development server (e.g. https://sandbox.uberall.com/api/search).
-- - publicKey
-- - - All requests should include the following `publicKey`:
-- - - GNpPyrkYiTS5BV4F8XckW3kYurprwSk7cRG3Z4jOtrTTBceyfPveAOvDFk3mYY0ofundf (included in the boilerplate)
+  - Dev server
+    - All API calls should be sent to
+    - https://sandbox.uberall.com/api/$ENDPOINT, our development server (e.g. https://sandbox.uberall.com/api/search).
+  - publicKey
+    - All requests should include the following `publicKey`:
+    - GNpPyrkYiTS5BV4F8XckW3kYurprwSk7cRG3Z4jOtrTTBceyfPveAOvDFk3mYY0ofundf (included in the boilerplate)
 
 - Useful files
-- - In the repo, you will find inside `src/data` three useful files for the task:
-- - - A mapping of countries we support to the third party directories per country
-- - - A mapping of two-letter country code to its full name (optional)
-- - - Logo images for each third party directory (optional)
+  - In the repo, you will find inside `src/data` three useful files for the task:
+    - A mapping of countries we support to the third party directories per country
+    - A mapping of two-letter country code to its full name (optional)
+    - Logo images for each third party directory (optional)
 
 ### Boilerplate
 
