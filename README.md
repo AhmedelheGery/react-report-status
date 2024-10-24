@@ -1,4 +1,4 @@
-22# Frontend Developer Challenge
+# Frontend Developer Challenge
 
 Welcome to the uberall frontend challenge. Your task will be to implement a local business online status check - one of the core features that Uberall is offering.
 
