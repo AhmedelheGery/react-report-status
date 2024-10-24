@@ -1,4 +1,4 @@
-# Frontend Developer Challenge
+22# Frontend Developer Challenge
 
 Welcome to the uberall frontend challenge. Your task will be to implement a local business online status check - one of the core features that Uberall is offering.
 
@@ -60,7 +60,7 @@ The page should poll the API with the entered data, then display it on the page.
     - https://sandbox.uberall.com/api/$ENDPOINT, our development server (e.g. https://sandbox.uberall.com/api/search).
   - publicKey
     - All requests should include the following `publicKey`:
-    - GNpPyrkYiTS5BV4F8XckW3kYurprwSk7cRG3Z4jOtrTTBceyfPveAOvDFk3mYY0ofundf (included in the boilerplate)
+    - 7a9cccda8e21b961f9cdd7c822e12d27fd68bcac40eee033f2a2eb41c0985a35cd3a8c8aca9fd8a6a0fa7beca434a70775389af9375768ff54f7b46ed7a740e5 (included in the boilerplate)
 
 - Useful files
   - In the repo, you will find inside `src/data` three useful files for the task:
