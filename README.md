@@ -6,12 +6,12 @@ Welcome to the uberall frontend challenge. Your task will be to implement a loca
 
 This is not a quiz! As much as we are interested in knowing what a great developer you are, we want to work with you in a team based manner, as we would on an average day in the uberall office. This means that you should feel free to ask any question at any time, if you need clarification on any aspect of this challenge or if you felt stuck with a specific question.
 
-We are providing a repository with a minimal react starter-kit (more on it [here](#boilerplate)) to _hopefully_ help you get to the heart of the matter and focus on the actual task rather than on the setup. You have to fork the repository and open a pull request for an easier review of your work.~~ ([handover](#handover) steps)  
+We are providing a repository with a minimal react starter-kit (more on it [here](#boilerplate)) to help you get to the heart of the matter and focus on the actual task rather than on the setup. You have to fork the repository and open a pull request for an easier review of your work.~~ ([handover](#handover) steps)  
 If you do not wish to use the boilerplate, feel free not to, if you are more comfortable with a tool of your own.
 
 ## The Challenge
 
-On our website we have a status report page, (https://uberall.com/en/check), where a user can enter the Name, Street + Number, and ZIP code of a business, and will receive a report of how that business appears in all the online directories that uberall supports (try it!). Your task is to implement a new status report page, using our own API.
+On our website we have a status report page, ([example here](https://jsfiddle.net/davezatch/hmd8yL0n/1/)), where a user can enter the Name, Street + Number, and ZIP code of a business, and will receive a report of how that business appears in all the online directories that uberall supports (try it!). Your task is to implement a new status report page, using our own API.
 
 In a web page, you should implement the following:
 
