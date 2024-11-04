@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react';
+import StatusReport from './pages/status-report';
 
 const App = () => {
-  return null;
+  return <StatusReport />;
 };
 
 export default App;
