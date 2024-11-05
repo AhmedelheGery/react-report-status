@@ -10,9 +10,9 @@ const StatusReport = () => {
   const [reportState, setReportState] = useState({
     country: '',
     city: '',
-    name: 'Uberall',
-    street: 'Hussitenstr 32-33',
-    zip: '13355',
+    name: '',
+    street: '',
+    zip: '',
     reportResult: null,
     reportError: null,
   });
